@@ -6,9 +6,9 @@ end
 def using_unshift(array, string)
   array.unshift(string)
   
-=begin
-
 end
+
+=begin 
 
 def using_pop(array)
 
