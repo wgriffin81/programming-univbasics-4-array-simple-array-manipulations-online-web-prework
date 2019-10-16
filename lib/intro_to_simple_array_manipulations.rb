@@ -29,13 +29,30 @@ end
 
 def shift_with_args(array)
   first_item = array.shift(2)
-
 end
 
-def using_concat(array)
-  first_item = array.shift 
-
+def using_concat(array1, array2)
+  new_array - array1 + array2
 end
 
+def using_insert(array, element)
+  new_array = array.insert[4](element)
+end
+
+def using_uniq(array)
+  no_duplicates = array.uniq 
+end
+
+def using_flatten(array)
+  array_strings = array.flatten 
+end
+
+def using_delete(array, string)
+  strings_removed = array.delete(string)
+end
+
+def using_delete_at(array, integar)
+  delete_at_array = array.delete[integar]
+end
 
 
