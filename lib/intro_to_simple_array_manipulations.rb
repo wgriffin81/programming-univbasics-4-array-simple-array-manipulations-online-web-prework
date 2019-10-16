@@ -17,10 +17,8 @@ def using_pop(array)
 
 end
 
-def pop_with_args(array, element)
-  counter = 0
-  if counter < element
-    last_item = array.pop
+def pop_with_args(array)
+    last_item = array.pop(2)
   end
  
   p last_item
