@@ -10,3 +10,10 @@ end
 
 
 
+def using_pop(array)
+  last item = array.pop
+
+end
+
+
+
