@@ -8,11 +8,5 @@ def using_unshift(array, string)
   
 end
 
-=begin 
 
-def using_pop(array)
-
-end
-
-=end
 
