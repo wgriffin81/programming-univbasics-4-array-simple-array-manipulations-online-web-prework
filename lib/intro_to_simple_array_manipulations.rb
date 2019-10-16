@@ -19,9 +19,6 @@ end
 
 def pop_with_args(array)
     last_item = array.pop(2)
-  end
- 
-  p last_item
 
 end
 
