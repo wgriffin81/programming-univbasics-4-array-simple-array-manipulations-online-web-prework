@@ -18,12 +18,22 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-    last_item = array.pop(2)
+  last_item = array.pop(2)
 
 end
 
 def using_shift(array)
-  array.pop(2)
+  first_item = array.shift 
+
+end
+
+def shift_with_args(array)
+  first_item = array.shift(2)
+
+end
+
+def using_concat(array)
+  first_item = array.shift 
 
 end
 
